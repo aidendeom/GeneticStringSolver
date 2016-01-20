@@ -31,7 +31,7 @@ auto CharacterGenerator::GetRandomString(size_t length) -> std::string
 
 	for (size_t i = 0; i < length; i++)
 	{
-		generated.push_back(gen.GetRandomChar());
+		generated.push_back(GetRandomChar());
 	}
 
 	return generated;
